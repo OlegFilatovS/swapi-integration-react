@@ -1,0 +1,32 @@
+$color_1: white;
+$color_2: #00bc8c;
+$background_color_1: #444;
+
+.header {
+	margin-top: .5rem;
+	padding-left: 10px;
+	ul {
+		li {
+			list-style: none;
+			margin: 0;
+			padding: .5rem 1rem;
+			border-radius: 3px;
+			&:hover {
+				background-color: $background_color_1;
+			}
+		}
+	}
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	h3 {
+		a {
+			color: $color_1;
+			&:hover {
+				color: $color_2;
+			}
+		}
+	}
+}
