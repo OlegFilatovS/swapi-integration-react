@@ -3,7 +3,7 @@ import './spinner.scss';
 
 const Spinner = () => {
     return (
-<div className = "container">
+    <div className = "container">
         <div className="dank-ass-loader">
           <div className="row">
              <div className="arrow up outer outer-18"></div>
@@ -39,7 +39,7 @@ const Spinner = () => {
           </div>
         </div>
 
-    </div>
+     </div>
 
         );
 };
